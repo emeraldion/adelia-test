@@ -1,0 +1,31 @@
+{
+  "name": "adelia-test",
+  "version": "1.0.0",
+  "description": "Test consumer package for Adelia ORM",
+  "main": "index.js",
+  "scripts": {
+    "mysql": "mysql -u root -p < schemas/mysql/adelia_test.sql",
+    "test": "DB=mysql MYSQL_HOST=localhost MYSQL_PORT=8889 MYSQL_USER=root MYSQL_PASSWORD=root MYSQL_DB=adelia_test ./index.js"
+  },
+  "author": "Claudio Procida <claudio.procida@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "adelia": "^1.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emeraldion/adelia-test.git"
+  },
+  "keywords": [
+    "adelia",
+    "orm",
+    "node",
+    "test",
+    "activerecord"
+  ],
+  "bugs": {
+    "url": "https://github.com/emeraldion/adelia-test/issues"
+  },
+  "homepage": "https://github.com/emeraldion/adelia-test#readme"
+}
