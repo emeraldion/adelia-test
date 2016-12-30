@@ -35,7 +35,7 @@ USE `adelia_test`;
 CREATE TABLE `models` (
   `id` int(11) NOT NULL,
   `name` varchar(24) DEFAULT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `models`
